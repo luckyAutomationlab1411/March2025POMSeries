@@ -15,6 +15,8 @@ public class LoginPage {
 
 	private WebDriver driver;
 	private ElementUtil eleUtil;
+	
+	int i= 10;
 
 	// private By locators: page objects
 	private final By emailID = By.id("input-email");
