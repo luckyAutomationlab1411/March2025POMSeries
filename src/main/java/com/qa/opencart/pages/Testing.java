@@ -6,6 +6,7 @@ public class Testing {
 		
 		String name = "Lucky";
 		String s = "Selenium";
+		String a= "Automation";
 
 	}
 
