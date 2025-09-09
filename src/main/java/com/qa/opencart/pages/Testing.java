@@ -5,6 +5,7 @@ public class Testing {
 	public static void main(String[] args) {
 		
 		String name = "Lucky";
+		String s = "Selenium";
 
 	}
 
