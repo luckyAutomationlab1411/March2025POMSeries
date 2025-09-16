@@ -1,0 +1,7 @@
+package com.qa.opencart.pages;
+
+public class TestingPage {
+
+	int a = 10;
+	String name = "Tom";
+}
