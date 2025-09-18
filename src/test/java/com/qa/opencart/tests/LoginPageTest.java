@@ -32,7 +32,7 @@ public class LoginPageTest extends BaseTest {
 		Assert.assertEquals(actTitle, AppConstants.LOGIN_PAGE_TITLE);
 	}
 
-	@Description("loging page url test....")
+	@Description("loging page url test......")
 	@Owner("Lucky Automation Labs")
 	@Severity(SeverityLevel.MINOR)
 	@Test
@@ -43,7 +43,7 @@ public class LoginPageTest extends BaseTest {
 		Assert.assertTrue(actURL.contains(AppConstants.LOGIN_PAGE_FRACTION_URL));
 	}
 
-	@Description("forgot password link exist test....")
+	@Description("forgot password link exist test......")
 	@Owner("Lucky Automation Labs")
 	@Severity(SeverityLevel.CRITICAL)
 	@Test
