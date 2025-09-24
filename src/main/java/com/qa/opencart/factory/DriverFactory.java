@@ -171,8 +171,8 @@ public class DriverFactory {
 
 		try {
 			if (envName == null) {
-				log.info("no env.. is passed, hence running test cases on qa envirnoment");
-				ip = new FileInputStream("./src/test/resources/config/config.dev.properties");
+				log.info("no env.. is passed, hence running test cases on Prod envirnoment");
+				ip = new FileInputStream("./src/test/resources/config/config.properties");
 			} else {
 				switch (envName.trim().toLowerCase()) {
 				case "qa":
