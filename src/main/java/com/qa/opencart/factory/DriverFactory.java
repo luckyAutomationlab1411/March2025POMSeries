@@ -112,7 +112,8 @@ public class DriverFactory {
 	 * 
 	 */
 	private void init_remoteDriver(String browserName) {
-
+        log.info("Running tests on Selenium Grid=====  "+browserName);
+		
 		try {
 			switch (browserName) {
 			case "chrome":
